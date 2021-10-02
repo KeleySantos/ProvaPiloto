@@ -80,7 +80,7 @@ public class App {
             break;
 
             case 4:
-                System.out.println("--------------Programa encerrado-----------------");
+                System.out.println("--------------Programa Encerrado----------------");
                 break;
         
             default:
