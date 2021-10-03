@@ -68,7 +68,7 @@ public class App {
 
             case 3:
 
-                System.out.println("Digite o tamanho do novo vetor: ");
+                System.out.println("Digite o novo tamanho do vetor: ");
                 final int newTamanho = ler.nextInt();
 
                 final Piloto [] newPilotos = new Piloto[newTamanho];
@@ -77,6 +77,7 @@ public class App {
 
                     newPilotos[i] = pilotos[i];
                 }
+
             break;
 
             case 4:
