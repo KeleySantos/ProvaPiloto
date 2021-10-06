@@ -1,8 +1,8 @@
 public class Piloto {
 
-    String nome;
-    int cpf;
-    int habilitacao;
+    private String nome;
+    private int cpf;
+    private int habilitacao;
 
     public Piloto(){
     }
