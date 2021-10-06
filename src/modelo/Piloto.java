@@ -1,3 +1,5 @@
+package modelo;
+
 public class Piloto {
 
     private String nome;
@@ -32,4 +34,5 @@ public class Piloto {
         this.habilitacao = habilitacao;
     }
         
+    
 }
