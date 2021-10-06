@@ -1,9 +1,12 @@
 import java.util.Scanner;
 
+import modelo.Piloto;
+
 public class App {
     public static void main(final String[] args) throws Exception {
 
         final Scanner ler = new Scanner(System.in);
+        int op;
 
         System.out.println("Digite quantos pilotos quer cadastrar: ");
         final int tamanho = ler.nextInt();
@@ -71,13 +74,15 @@ public class App {
                 System.out.println("Digite o novo tamanho do vetor: ");
                 final int newTamanho = ler.nextInt();
 
-                final Piloto [] newPilotos = new Piloto[newTamanho];
+                final Piloto[] newPilotos = new Piloto[newTamanho];
 
-                for(int i = 0; i < newPilotos.length; i++){
+                for(int i = 0; i < pilotos.length; i++){
 
                     newPilotos[i] = pilotos[i];
                 }
 
+                System.out.println("Digite 1 para retornar ao cadastro");
+                op = ler.nextInt();
             break;
 
             case 4:
