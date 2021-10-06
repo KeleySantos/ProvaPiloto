@@ -46,7 +46,7 @@ public class App {
                     System.out.println("O cpf do piloto cadastrado é : " + pilotos[i].getCpf());
                     System.out.println("A habilitação do piloto cadastrado é : " + pilotos[i].getHabilitacao());
                     System.out.println();
-                    System.out.println("--------------------------------------------------------------");
+                    System.out.println("-----------------------------------------------------------");
                     System.out.println();
                 }
             break;
